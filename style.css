@@ -53,3 +53,7 @@ body {
 .btn:hover {
     border-color: blue;
 }
+
+.hide {
+    display: none;
+}
