@@ -25,6 +25,7 @@ body {
 .Stylebutton {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    /* column layout */
     gap: 10px;
     margin: 20px 0;
 }
