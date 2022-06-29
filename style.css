@@ -1,8 +1,18 @@
 h2 {
-    color: bisque;
+    color: rgba(244, 144, 22, 0.959);
 }
 
 body {
+    background-color: black;
+}
+
+header {
+    align-items: center;
+    background-color: black;
+    color: aqua;
+}
+
+main {
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0;
@@ -12,12 +22,11 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: gray
     /* centers quiz box */
 }
 
 .container {
-    background-color: rgb(35, 34, 34);
+    background-color: rgb(12, 134, 174);
     border-radius: 5px;
     padding: 10px;
 }
