@@ -7,31 +7,32 @@ const answerButtonsElement = document.getElementById('answers')
 
 
 const questions = [{
-        question: 'What is Javascript',
-        answers: [
-            { text: 'Its what makes a web-page function', correct: true },
-            { text: 'The body', correct: false },
-            { text: 'Its the style', correct: false },
-            { text: 'Both', correct: false },
+            question: 'What is Javascript',
+            answers: [
+                { text: 'Its what makes a web-page function', correct: true },
+                { text: 'The body', correct: false },
+                { text: 'Its the style', correct: false },
+                { text: 'Both', correct: false },
 
 
-        ]
-    },
-    {
-        question: 'What do Arrays do?',
-        answers: [
-            { text: 'Stores values', correct: true },
-            { text: 'They give you money', correct: false },
-            { text: 'Its a function', correct: false },
-            { text: 'They create elements', correct: false }
-        ]
-    }
+            ]
+        },
+        {
+            question: 'What do Arrays do?',
+            answers: [
+                { text: 'Stores values', correct: true },
+                { text: 'They give you money', correct: false },
+                { text: 'Its a function', correct: false },
+                { text: 'They create elements', correct: false }
+            ]
+        }
 
 
 
 
 
-]
+    ]
+    //An array of questions
 
 
 let shuffledQuestions, currentQuestionIndex
@@ -109,6 +110,7 @@ function selectAnswer(e) {
     setStatusClass(document.body, correct)
     Array.from(answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
+            //Targets the answer of user for each button
     })
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
         nextButton.classList.remove('hide')

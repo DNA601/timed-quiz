@@ -25,6 +25,9 @@ David Navarrete Ayala.
 
 https://github.com/DNA601/timed-quiz
 
+# link to quiz
+
+https://dna601.github.io/timed-quiz/
 
 
 # Credits to... 
