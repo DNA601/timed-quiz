@@ -67,3 +67,11 @@ main {
 .hide {
     display: none;
 }
+
+body.correct {
+    background-color: greenyellow;
+}
+
+body.incorrect {
+    background-color: rgba(255, 0, 0, 0.673);
+}
